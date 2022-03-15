@@ -1,0 +1,30 @@
+{
+  "name": "sit737-2022-t1-prac1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taopan2007/sit737-2022-t1-prac2.git"
+  },
+  "author": "Tao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/taopan2007/sit737-2022-t1-prac2/issues"
+  },
+  "homepage": "https://github.com/taopan2007/sit737-2022-t1-prac2#readme",
+  "dependencies": {
+    "debug": "^4.3.3",
+    "express": "^4.17.3",
+    "express-pino-logger": "^7.0.0",
+    "log": "^6.3.1",
+    "pino": "^7.8.1",
+    "pino-pretty": "^7.5.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
